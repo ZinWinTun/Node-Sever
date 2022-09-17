@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap');
+ 
+*{
+    background-color:rgb(29, 29, 29);
+    /* background-color: #022e68; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color:rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
+    width: 450px;
+    padding: 20px;
+    height: 31vh;
+    margin: 200px auto;
+    border: 1px solid white;
+    box-shadow:  1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15);
+}
+.sever-name{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 232, 232);
+    margin-bottom: 15px;
+}
+.const{
+    color: #022e68;
+}
+.yellow{
+    color: #f3f169;
+}
+.skyblue{
+    color: rgb(71, 180, 223);
+}
+.css-com{
+    color: rgb(2, 92, 2);
+}
+.com{
+    color: white;
+}
+pre{
+    line-height: 1.5;
+}
+.w{
+    color: #fda15a;
+}
+.rely{
+    color: yellow;
+}
+.sky{
+    color: skyblue;
+}
+.port{
+    color: #cef369;
+}
+.pur{
+    color: rgb(173, 0, 173);
+}
