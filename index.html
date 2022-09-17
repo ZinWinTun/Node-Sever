@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Sever</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+    <div class="card">
+        <div class="sever-name">
+            How To Create Node Sever
+        </div>
+        <div class="">
+            <pre >
+<span class="const">const</span> <span class="yellow">express</span> <span class="com">=</span> <span class="yellow">require</span><span class="rely">(</span><span class="w">'express'</span><span class="rely">)</span><span class="com">;</span>
+<span class="const">const</span> <span class="skyblue">app</span> <span class="com">=</span> <span class="yellow">express</span><span class="rely">()</span><span class="com">;</span>
+<span class="skyblue">app</span><span class="com">.</span><span class="yellow">listen</span><span class="rely">(</span><span class="port">8888</span><span class="com">,</span><span class="pur">()</span><span class="skyblue">=></span> <span class="sky">console</span><span class="com">.</span><span class="yellow">log</span><span class="pur">(</span><span class="w">'listening at 8888'</span><span class="pur">)</span><span class="rely">)</span><span class="com">;</span>
+<span class="skyblue">app</span><span class="com">.</span><span class="yellow">use</span><span class="rely">(</span><span class="yellow">express<span class="com">.</span>static</span> <span class="pur">(</span><span class="w">'public'</span><span class="pur">)</span><span class="rely">)</span><span class="com">;</span>
+
+<span class="css-com">//For css</span>
+<span class="skyblue">app</span><span class="com">.</span><span class="yellow">use</span><span class="rely">(</span><span class="yellow">express<span class="com">.</span>static</span><span class="pur">(</span><span class="sky">__dirname</span> <span class="com">+</span> <span class="w">'/public'</span><span class="pur">)</span><span class="rely">)</span><span class="com">;</span>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
